@@ -1,0 +1,15 @@
+{application, check_fips,
+ [{description, "An escript to test FIPS 140-2 mode in the crypto app"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
