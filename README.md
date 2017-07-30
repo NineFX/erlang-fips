@@ -4,7 +4,7 @@ FIPS 140-2 enabled Erlang containers
 
 ## Erlang installation
 
-This container contains [Erlang/OTP](http://erlang.org) configured with `--enable-fips` for a FIPS mode crypto application. The container builds on an [Alpine image compiled in FIPS mode](https://hub.docker.com/r/ninefx/alpine-fips/).
+This container contains [Erlang/OTP](http://erlang.org) configured with `--enable-fips` for a [FIPS mode crypto application](http://erlang.org/documentation/doc-9.0-rc1/lib/crypto-4.0/doc/html/fips.html). The container builds on an [Alpine image compiled in FIPS mode](https://hub.docker.com/r/ninefx/alpine-fips/).
 
 ## rebar3
 
