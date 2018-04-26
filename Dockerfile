@@ -1,7 +1,7 @@
 FROM ninefx/alpine-fips:3.6
 
 ARG OTP_VERSION=20.3.4
-ARG OTP_SHA256_HASH=8a6020138eeecc015ac5d12ccb2b2c543e975559e669c376702723a2a67dc105
+ARG OTP_SHA256_HASH=6a3b8d42b49dde708ab6faea4bf56b12466d0435e95314f42cedc0471ffcf7ae
 
 COPY check_fips/ /root/check_fips/
 
